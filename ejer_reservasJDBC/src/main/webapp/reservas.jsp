@@ -15,14 +15,15 @@
 <body>
 <h1>Realización de reservas</h1>
 <p>
-<form action="InsertarRegistro" method="post" NAME="form">
+
 <!-- NO HE CONSEGUIDO AÚN QUE META LOS DATOS DEL FORMULARIO EN LA BASE DE DATOS -->
 
 <h3>Si quiere realizar una reserva, proceda a rellenar el siguiente formulario. 
 Se le contestará en la mayor brevedad posible</h3>
 
 <br>
-Nombre: <input type="text" name="name"/><br/><br/>
+<form action="InsertarRegistro" method="post" >
+Nombre: <input type="text" name="nombre"/><br/><br/>
 Apellidos: <input type="text" name="apellidos"/> <br/><br/>
 Email: <input type="text" name="email"/> <br/><br/>
 Teléfono: <input type="text" name="telefono"/> <br/><br/>

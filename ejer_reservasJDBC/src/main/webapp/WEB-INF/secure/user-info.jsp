@@ -14,7 +14,7 @@
         <tr><td>Role</td><td><c:out value="${user.role}"/></td></tr>
         <tr><td>Country</td><td><c:out value="${user.country}"/></td></tr>
       </table>      
-      <form action="<%=request.getContextPath()%>/appLogout" method="POST">
+      <form action=<%=request.getContextPath()%>/appLogout" method="POST"> 
         <input type="submit" value="Logout"/>
         <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>		
       </form> 

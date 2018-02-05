@@ -26,6 +26,11 @@ public class UserController {
 	public String error() {
  		return "access-denied";}
 	
+	@RequestMapping(value="/InsertarRegistro")
+	public String InsertarRegistro() {
+ 		return "registrado";}
+	
+	
 	@RequestMapping(value="/verreservas")
 	public String verreservas() {
 	 		return "verreservas";
