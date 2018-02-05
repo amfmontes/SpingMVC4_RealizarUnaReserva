@@ -50,7 +50,6 @@ public class InsertarRegistro extends HttpServlet {
 		String t= request.getParameter("telefono");
 		
 		try {
-			
 			Class.forName("com.mysql.jdbc.Driver");	
 			
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/reservas", "root", "");

@@ -16,7 +16,6 @@
 <h1>Realización de reservas</h1>
 <p>
 
-
 <!-- NO HE CONSEGUIDO AÚN QUE META LOS DATOS DEL FORMULARIO EN LA BASE DE DATOS -->
 
 <h3>Si quiere realizar una reserva, proceda a rellenar el siguiente formulario. 
